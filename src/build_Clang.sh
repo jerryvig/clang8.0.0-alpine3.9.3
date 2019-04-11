@@ -11,7 +11,7 @@ cd llvm-8.0.0.src
 mkdir build
 cd build
 /usr/bin/cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++  ../
-/usr/bin/ninja check-all
+/usr/bin/ninja -C .
 
 # Download and build clang
 /usr/bin/curl http://releases.llvm.org/8.0.0/cfe-8.0.0.src.tar.xz -o cfe-8.0.0.src.tar.xz
