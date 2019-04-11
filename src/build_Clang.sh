@@ -9,5 +9,5 @@ rm llvm-8.0.0.src.tar
 cd llvm-8.0.0.src
 mkdir build
 cd build
-/usr/bin/cmake -G Ninja -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ ../
-/usr/bin/ninja check-all
+/usr/bin/cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++  ../
+# /usr/bin/ninja check-all
