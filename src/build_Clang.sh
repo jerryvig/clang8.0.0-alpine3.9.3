@@ -16,6 +16,7 @@ cd build
 # Download and build clang
 /usr/bin/curl http://releases.llvm.org/8.0.0/cfe-8.0.0.src.tar.xz -o cfe-8.0.0.src.tar.xz
 /usr/bin/unxz cfe-8.0.0.src.tar.xz
+/bin/tar xvf cfe-8.0.0.src.tar
 cd cfe-8.0.0.src/
 mkdir build
 # cd build
