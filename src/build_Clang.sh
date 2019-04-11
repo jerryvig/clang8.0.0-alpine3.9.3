@@ -18,6 +18,6 @@ cd build
 /usr/bin/unxz cfe-8.0.0.src.tar.xz
 cd cfe-8.0.0.src/
 mkdir build
-cd build
-/usr/bin/cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++  ../
-/usr/bin/ninja -C .
+# cd build
+# /usr/bin/cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++  ../
+# /usr/bin/ninja -C .
