@@ -9,6 +9,7 @@ RUN apk add --no-cache cmake
 RUN apk add --no-cache gcc
 RUN apk add --no-cache g++
 RUN apk add --no-cache python3
+RUN apk add --no-cache linux-headers
 
 WORKDIR /
 COPY src/ /
